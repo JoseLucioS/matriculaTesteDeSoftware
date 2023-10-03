@@ -110,39 +110,4 @@ public class Matricula {
 		}
 	}
 
-//		if (mediaParcial.compareTo(BigDecimal.valueOf(7)) >= 0) {
-//			if(frequencia() >= 75) {
-//				status = StatusAprovacao.APR;
-//			} else {
-//				status = StatusAprovacao.REPF;
-//			}
-//			
-//		} else if(mediaParcial.compareTo(BigDecimal.valueOf(5)) >= 0 && mediaParcial.compareTo(BigDecimal.valueOf(7)) < 0) {
-//			if(frequencia() >= 75) {
-//				if(nota1().compareTo(BigDecimal.valueOf(3)) >= 0 && nota2().compareTo(BigDecimal.valueOf(3)) >= 0 && nota3().compareTo(BigDecimal.valueOf(3)) >= 0) {
-//					status = StatusAprovacao.APRN;
-//				} else {
-//					status = StatusAprovacao.REC;
-//				}
-//				
-//			} else {
-//				status = StatusAprovacao.REPF;
-//			}
-//		} else if(mediaParcial.compareTo(BigDecimal.valueOf(3)) >= 0 && mediaParcial.compareTo(BigDecimal.valueOf(5)) < 0) {
-//			if(frequencia() >= 75) {
-//				status = StatusAprovacao.REC;
-//			} else {
-//				status = StatusAprovacao.REPF;
-//			}
-//		} else if (frequencia() >= 75){
-//			status = StatusAprovacao.REP;
-//		} else {
-//			status = StatusAprovacao.REMF;
-//		}
-//		
-//		this.status = status;
-//
-//	}
-
-
 }

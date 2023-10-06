@@ -77,8 +77,15 @@ public class Matricula {
 		if (frequencia() < 75) {
 
 			if (mediaParcial.compareTo(TRES) < 0) {
+				
 				this.status = StatusAprovacao.REMF;
+				
+			} else if (mediaParcial.compareTo(SEIS) < 0) {
+				
+				this.status = StatusAprovacao.REMF;
+				
 			} else {
+				
 				this.status = StatusAprovacao.REPF;
 			}
 
@@ -92,21 +99,17 @@ public class Matricula {
 				
 				this.status = StatusAprovacao.REC;
 				
-			} else if(mediaParcial.compareTo(SETE) < 0) {
+			} else {
 				if(nota1.compareTo(QUATRO) < 0 || nota2.compareTo(QUATRO) < 0 || nota3.compareTo(QUATRO) < 0) {
 					
 					this.status = StatusAprovacao.REC;
 					
 				} else {
 					
-					this.status = StatusAprovacao.APRN;
+					this.status = StatusAprovacao.APR;
 					
 				}
-			} else {
-				
-				this.status = StatusAprovacao.APR;
-				
-			}
+			} 
 		}
 	}
 

@@ -1,1 +1,10 @@
-7.0;7.0;4.0;75;APRN
+0.0;0.0;0.0;0;REMF;aluno deve estar REPROVADO por MEDIA e FALTAS
+2.8;3.9;2.0;75;REP;aluno deve estar REPROVADO
+3.0;4.0;2.0;74;REMF;aluno deve estar REPROVADO por MEDIA e FALTAS
+5.3;6.9;5.5;76;REC;aluno deve estar em RECUPERAÇÃO
+6.0;5.0;7.0;1;REPF;aluno deve estar REPROVADO por FALTAS
+10.0;10.0;10.0;100;APR;aluno deve estar APROVADO
+10.0;6.3;2.0;99;REC;aluno deve estar em RECUPERAÇÃO
+0.1;0.1;0.1;90;REP;aluno deve estar REPROVADO
+7.0;2.3;0.0;77;REC;aluno deve estar em RECUPERAÇÃO
+9.8;9.9;10.0;85;APR;aluno deve estar APROVADO

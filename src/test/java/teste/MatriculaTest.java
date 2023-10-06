@@ -19,9 +19,9 @@ class MatriculaTest {
 	}
 	
 	@ParameterizedTest
-	@DisplayName("Teste Parametrizado 01")
+	@DisplayName("Testes Parametrizados v2.0")
 	@CsvFileSource(resources = "/dadosDeTeste.csv", delimiter = ';')
-	public void testaConsolidarParcialmente(BigDecimal n1, BigDecimal n2, BigDecimal n3, Integer freq, StatusAprovacao status_esperado) {
+	public void testaConsolidarParcialmente(BigDecimal n1, BigDecimal n2, BigDecimal n3, Integer freq, StatusAprovacao status_esperado, String mensagem) {
 		
 		m.registrarNota1(n1);
 		m.registrarNota2(n2);
